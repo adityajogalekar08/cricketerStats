@@ -17,6 +17,15 @@ const HomePage = () => {
 				</Fade>
 			</div>
 			{/* <div className="homeborder" /> */}
+			<Fade bottom delay={10000}>
+				<div className="wrapper">
+					<div className="stats">Career Batting Stats</div>
+					<div className="Teststats">Test: 1989–13</div>
+					<div className="RunsTeststats">Runs: 15921</div>
+					<div className="ODIstats">ODI: 1989-12</div>
+					<div className="RunsODIstats">Runs:18426</div>
+				</div>
+			</Fade>
 		</section>
 	);
 };

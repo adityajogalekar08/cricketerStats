@@ -6,7 +6,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	background-color: #379683;
+	background-color: #05386b;
 	position: relative;
 }
 
@@ -40,4 +40,34 @@
 		#20639b,
 		#00c6ff
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* wrapper for stat section*/
+.wrapper {
+	display: grid;
+	color: white !important;
+	grid-gap: 30px;
+	font-size: large;
+	font-weight: bolder;
+	grid-template-areas:
+		"stats Teststats ODIstats"
+		"stats RunsTeststats RunsODIstats";
+}
+.stats {
+	grid-area: stats;
+}
+.Teststats {
+	grid-area: Teststats;
+	border-bottom: 5px solid #daa520;
+}
+.ODIstats {
+	grid-area: ODIstats;
+	border-bottom: 5px solid #daa520;
+}
+.RunsODIstats {
+	grid-area: RunsODIstats;
+	border-bottom: 5px solid #daa520;
+}
+.RunsTeststats {
+	grid-area: RunsTeststats;
+	border-bottom: 5px solid #daa520;
 }

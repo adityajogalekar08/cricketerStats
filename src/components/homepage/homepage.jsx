@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from "react-reveal";
+import { Link } from "react-router-dom";
 import "./homepage.css";
 
 const HomePage = () => {
@@ -7,7 +8,7 @@ const HomePage = () => {
 		<section className="homesection">
 			<div className="content">
 				<Fade bottom delay={1000}>
-					<span className="pd-700 name">Sachin Tendulkar</span>
+					<span className="pd-700 title">Sachin Tendulkar</span>
 				</Fade>
 				<Fade bottom delay={8000}>
 					<p>
@@ -26,6 +27,16 @@ const HomePage = () => {
 					<div className="RunsODIstats">Runs:18426</div>
 				</div>
 			</Fade>
+			<br />
+			<br />
+			<br />
+			<div>
+				<Link to="/" style={{ textDecoration: "none" }}>
+					<Fade bottom delay={10000}>
+						<button className="dashboard-button">Stat Page</button>
+					</Fade>
+				</Link>
+			</div>
 		</section>
 	);
 };

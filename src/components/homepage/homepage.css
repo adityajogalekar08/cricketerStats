@@ -71,3 +71,29 @@
 	grid-area: RunsTeststats;
 	border-bottom: 5px solid #daa520;
 }
+/* route button */
+.dashboard-button {
+	height: 50px;
+	width: 200px;
+	text-decoration: none;
+	margin-top: 0px;
+	outline: none;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #00ab6b;
+	color: #0d1b32;
+	border: 0px;
+	border-radius: 4px;
+	box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+}
+.title {
+	font-size: 40px;
+	background: #00c9ff;
+	background: -webkit-linear-gradient(to left, #06beb6, #48b1bf);
+	background: linear-gradient(to left, #06beb6, #48b1bf);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}

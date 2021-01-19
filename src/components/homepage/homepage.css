@@ -1,0 +1,43 @@
+.homesection {
+	height: 100vh;
+	max-height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #379683;
+	position: relative;
+}
+
+.content {
+	width: 100%;
+	min-height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: large;
+	font-weight: 240rem;
+}
+.homeborder {
+	height: 17px;
+	width: 100%;
+	bottom: 0px;
+	background: #00c6ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#c70039,
+		#173f5f,
+		#20639b,
+		#00c6ff
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#c70039,
+		#173f5f,
+		#20639b,
+		#00c6ff
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

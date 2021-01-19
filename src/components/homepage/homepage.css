@@ -57,19 +57,17 @@
 }
 .Teststats {
 	grid-area: Teststats;
-	border-bottom: 5px solid #daa520;
+	border-bottom: 1px solid #daa520;
 }
 .ODIstats {
 	grid-area: ODIstats;
-	border-bottom: 5px solid #daa520;
+	border-bottom: 1px solid #daa520;
 }
 .RunsODIstats {
 	grid-area: RunsODIstats;
-	border-bottom: 5px solid #daa520;
 }
 .RunsTeststats {
 	grid-area: RunsTeststats;
-	border-bottom: 5px solid #daa520;
 }
 /* route button */
 .dashboard-button {

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cricketerStats/static/css/main.eb743351.chunk.css",
+    "main.js": "/cricketerStats/static/js/main.ac262d4d.chunk.js",
+    "main.js.map": "/cricketerStats/static/js/main.ac262d4d.chunk.js.map",
+    "runtime-main.js": "/cricketerStats/static/js/runtime-main.55c0b80f.js",
+    "runtime-main.js.map": "/cricketerStats/static/js/runtime-main.55c0b80f.js.map",
+    "static/js/2.38061bb8.chunk.js": "/cricketerStats/static/js/2.38061bb8.chunk.js",
+    "static/js/2.38061bb8.chunk.js.map": "/cricketerStats/static/js/2.38061bb8.chunk.js.map",
+    "static/js/3.5711f7e3.chunk.js": "/cricketerStats/static/js/3.5711f7e3.chunk.js",
+    "static/js/3.5711f7e3.chunk.js.map": "/cricketerStats/static/js/3.5711f7e3.chunk.js.map",
+    "index.html": "/cricketerStats/index.html",
+    "static/css/main.eb743351.chunk.css.map": "/cricketerStats/static/css/main.eb743351.chunk.css.map",
+    "static/js/2.38061bb8.chunk.js.LICENSE.txt": "/cricketerStats/static/js/2.38061bb8.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/cricketerStats/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55c0b80f.js",
+    "static/js/2.38061bb8.chunk.js",
+    "static/css/main.eb743351.chunk.css",
+    "static/js/main.ac262d4d.chunk.js"
+  ]
+}

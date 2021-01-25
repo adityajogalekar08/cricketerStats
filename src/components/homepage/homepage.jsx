@@ -1,6 +1,8 @@
 import React from "react";
 import Fade from "react-reveal";
 import { Link } from "react-router-dom";
+import PieCharts from "../Stadiums/PieStadium";
+import Stadiums from "../Stadiums/Stadium";
 import "./homepage.css";
 
 const HomePage = () => {
@@ -10,14 +12,14 @@ const HomePage = () => {
 				<Fade bottom delay={1000}>
 					<span className="pd-700 title">Sachin Tendulkar</span>
 				</Fade>
-				<Fade bottom delay={8000}>
+				{/*<Fade bottom delay={8000}>
 					<p>
 						Do your crime when sachin is batting, even God is busy watching him
 						play. <br />- <i>Australian Fan</i>
 					</p>
-				</Fade>
+	</Fade>*/}
 			</div>
-			{/* <div className="homeborder" /> */}
+			{/* <div className="homeborder" /> 
 			<Fade bottom delay={10000}>
 				<div className="wrapper">
 					<div className="stats">Career Batting Stats</div>
@@ -26,8 +28,11 @@ const HomePage = () => {
 					<div className="ODIstats">ODI: 1989-12</div>
 					<div className="RunsODIstats">Runs:18426</div>
 				</div>
-			</Fade>
+			</Fade>*/}
 			<br />
+			<div>
+				<Stadiums team={"Australia"}></Stadiums>
+			</div>
 			<br />
 			<br />
 			<div>
@@ -37,6 +42,10 @@ const HomePage = () => {
 					</Fade>
 				</Link>
 			</div>
+			<br />
+			<br />
+			<br />
+			<br />
 		</section>
 	);
 };

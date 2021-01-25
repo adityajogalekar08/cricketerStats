@@ -1,6 +1,6 @@
 .homesection {
-	height: 100vh;
-	max-height: 100vh;
+	height: 100%;
+
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
@@ -88,7 +88,7 @@
 	font-weight: bold;
 }
 .title {
-	font-size: 40px;
+	font-size: 140px;
 	background: #00c9ff;
 	background: -webkit-linear-gradient(to left, #06beb6, #48b1bf);
 	background: linear-gradient(to left, #06beb6, #48b1bf);

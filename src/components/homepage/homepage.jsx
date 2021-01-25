@@ -31,7 +31,7 @@ const HomePage = () => {
 			<br />
 			<br />
 			<div>
-				<Link to="/" style={{ textDecoration: "none" }}>
+				<Link to="/dashboard" style={{ textDecoration: "none" }}>
 					<Fade bottom delay={10000}>
 						<button className="dashboard-button">Stat Page</button>
 					</Fade>

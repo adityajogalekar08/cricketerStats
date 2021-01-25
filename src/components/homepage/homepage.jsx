@@ -30,9 +30,7 @@ const HomePage = () => {
 				</div>
 			</Fade>*/}
 			<br />
-			<div>
-				<Stadiums team={"Australia"}></Stadiums>
-			</div>
+
 			<br />
 			<br />
 			<div>

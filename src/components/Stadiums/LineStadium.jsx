@@ -27,7 +27,7 @@ const LineStadium = (props) => {
 				data={data}
 				margin={{ top: 40, right: 30, left: 0, bottom: -10 }}
 				className="ssp-400"
-				style={{ color: "#4150f5" }}
+				style={{ color: "#4b0082" }}
 			>
 				<XAxis />
 				<YAxis />
@@ -35,7 +35,7 @@ const LineStadium = (props) => {
 				<Line
 					type="monotone"
 					dataKey="runs"
-					stroke="#4150f5"
+					stroke="#4b0082"
 					strokeWidth="3"
 					strokeOpacity="0.85"
 					activeDot={{ r: 8 }}

@@ -24,6 +24,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
+	padding-left: 10%;
 }
 
 .back-arrow {
@@ -54,6 +55,7 @@
 	padding-left: 55px;
 	color: white;
 	font-size: 27px;
+	padding-left: 20%;
 }
 
 .team-cards-container {
@@ -82,7 +84,8 @@
 
 .team-card {
 	min-height: 70px;
-	width: 90%;
+	width: 100%;
+	min-width: 20%;
 	margin-bottom: 20px;
 	border-radius: 4px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

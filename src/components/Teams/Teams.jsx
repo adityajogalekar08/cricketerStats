@@ -15,18 +15,21 @@ const TeamCards = (props) => {
 					data-id={item.teamName}
 					style={{
 						animationDelay: `${i * 40}ms`,
-						minHeight: "110px",
-						borderBottom: "5px solid #2F82EC",
+						minHeight: "90px",
+						borderBottom: "5px solid #00DDFF",
 					}}
 				>
 					<p className="ssp-400 team-name" style={{ fontSize: "21px" }}>
 						{item.teamName}
+						<br />
+						{item.matches === 1 ? (
+							<span className="ssp-400 team-matches">{item.matches} match</span>
+						) : (
+							<span className="ssp-400 team-matches">
+								{item.matches} matches
+							</span>
+						)}
 					</p>
-					{item.matches === 1 ? (
-						<span className="ssp-400 team-matches">{item.matches} match</span>
-					) : (
-						<span className="ssp-400 team-matches">{item.matches} matches</span>
-					)}
 				</li>
 			);
 		}

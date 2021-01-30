@@ -3,7 +3,6 @@
 	/* background-image: linear-gradient(-180deg, #14233c 43%, #0d1b32); */
 	color: white;
 	background-color: #05386b;
-	display: flex;
 	justify-content: space-around;
 	overflow: hidden;
 }
@@ -23,7 +22,7 @@
 	height: 100%;
 	width: 70px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: flex-start;
 }
 
@@ -38,7 +37,7 @@
 }
 
 .teams-container {
-	width: 25%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -58,13 +57,11 @@
 }
 
 .team-cards-container {
-	height: 85vh;
-	max-height: 85vh;
-	overflow-y: scroll;
-	width: 90%;
+	overflow-x: scroll;
+	width: 80%;
 	margin-top: 10px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
 }

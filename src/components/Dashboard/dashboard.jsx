@@ -28,6 +28,7 @@ export default class Dashboard extends Component {
 				<div className="dashboard-placeholder ssp-300">
 					To view dashboard switch to larger device
 				</div>
+
 				<div className="dashboard-container">
 					<div className="sidebar-add">
 						<Link to="/" style={{ textDecoration: "none", color: "white" }}>
@@ -36,7 +37,6 @@ export default class Dashboard extends Component {
 							</div>
 						</Link>
 					</div>
-
 					<div className="teams-container">
 						<header className="team-headline ssp-300">Teams</header>
 						<Teams
@@ -44,7 +44,6 @@ export default class Dashboard extends Component {
 							changeTeamContext={this.setTeam}
 						/>
 					</div>
-
 					<Stadiums team={this.state.selectedTeam} />
 				</div>
 			</React.Fragment>

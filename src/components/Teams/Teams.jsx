@@ -16,7 +16,7 @@ const TeamCards = (props) => {
 					style={{
 						animationDelay: `${i * 40}ms`,
 						minHeight: "90px",
-						borderBottom: "5px solid #00DDFF",
+						borderBottom: "2px solid white",
 					}}
 				>
 					<p className="ssp-400 team-name" style={{ fontSize: "21px" }}>

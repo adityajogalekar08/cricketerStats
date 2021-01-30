@@ -2,7 +2,7 @@
 	min-height: 100vh;
 	/* background-image: linear-gradient(-180deg, #14233c 43%, #0d1b32); */
 	color: white;
-	background-color: #05386b;
+	background-color: #191970;
 	justify-content: space-around;
 	overflow: hidden;
 }
@@ -69,7 +69,7 @@
 }
 
 .team-cards-container::-webkit-scrollbar {
-	width: 5px;
+	width: 2px;
 }
 
 .team-cards-container::-webkit-scrollbar-track {
@@ -78,7 +78,7 @@
 }
 
 .team-cards-container::-webkit-scrollbar-thumb {
-	background-color: #1b2136;
+	background-color: white;
 	outline: 1px solid slategrey;
 }
 
@@ -89,7 +89,7 @@
 	margin-bottom: 20px;
 	border-radius: 4px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	background-color: #4150f5;
+	background-color: #4b0082;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -134,7 +134,7 @@
 
 .stadium {
 	width: 75%;
-	padding-left: 60px;
+	padding-left: 10%;
 	padding-right: 10px;
 }
 
